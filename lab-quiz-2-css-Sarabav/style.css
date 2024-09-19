@@ -1,0 +1,64 @@
+body{
+    background: rgb(231, 255, 214);
+    font-family: Verdana, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    color: #1050aa;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    text-align: center;
+    border-bottom: 2px dotted darkslateblue;
+} 
+
+p::first-letter {
+    font-size: 2em
+} 
+
+
+p{
+    color: firebrick;
+}
+
+a{
+    color: darkviolet;
+}
+
+.box{
+    border: 10px solid;
+    padding: 0.5em;
+    display: flex;
+    border-color: red;
+    background-color: yellow;
+    flex-direction: column;
+    text-align: center;
+    color: darkslateblue;
+} 
+.attraction-box h2{
+    margin: 20px;
+    color: green;
+    text-align: center;
+}
+
+h2 strong{
+    font-style: italic;
+}
+
+.attraction-box{
+    border: 2px dotted #483d8b;
+    border-radius: 10px;
+    padding: 15px;
+} 
+.attraction-box ol{
+    font-size: 1.1rem;
+    font-family: Georgia, serif;
+    line-height: 1.6;
+} 
+
+.attraction{
+    font-weight: bold;
+    text-decoration: underline;
+    color: tomato;
+}
